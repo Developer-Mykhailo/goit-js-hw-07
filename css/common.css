@@ -163,3 +163,40 @@ h1 {
   cursor: pointer;
   background: #6c8cff;
 }
+/* task-5 */
+
+.widget {
+  border-radius: 8px;
+  padding: 100px 78px;
+  width: 345px;
+  text-align: center;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.widget p {
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+  color: #2e2f42;
+}
+
+.change-color {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 148px;
+  margin: 0 auto;
+  background: #4e75ff;
+
+  cursor: pointer;
+
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.change-color:hover {
+  background: #6c8cff;
+}
