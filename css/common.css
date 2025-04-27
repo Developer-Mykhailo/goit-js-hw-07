@@ -69,10 +69,39 @@ body {
   max-width: 1128px;
   margin: 0 auto;
   list-style-type: none;
-  padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+/* task-3 */
+p:first-of-type {
+  margin-bottom: 24px;
+}
+
+#name-input {
+  outline: none;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 16px;
+
+  line-height: 150%;
+  letter-spacing: 0.04em;
+
+  margin-bottom: 16px;
+}
+
+#name-input::placeholder {
+  color: #2e2f42;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
 }
