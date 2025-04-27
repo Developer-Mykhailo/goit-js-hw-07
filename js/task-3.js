@@ -2,9 +2,9 @@ const inputElem = document.querySelector("#name-input");
 
 const outPutElem = document.querySelector("#name-output");
 
-inputElem.addEventListener("input", handleUserNameInput);
+inputElem.addEventListener("input", handlerUserNameInput);
 
-function handleUserNameInput() {
+function handlerUserNameInput() {
   const catSpace = inputElem.value.trim();
   if (catSpace === "") {
     outPutElem.textContent = "Anonymous";

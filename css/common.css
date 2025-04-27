@@ -105,3 +105,61 @@ h1 {
   line-height: 133%;
   letter-spacing: 0.04em;
 }
+
+/* task-4 */
+
+.js-login-form {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+
+  background-color: #fff;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form label:first-child {
+  margin-bottom: 8px;
+}
+
+.login-form label:nth-child(2) {
+  margin-bottom: 16px;
+}
+
+.login-form label input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.login-form button {
+  border: none;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.login-form button:hover {
+  cursor: pointer;
+  background: #6c8cff;
+}
