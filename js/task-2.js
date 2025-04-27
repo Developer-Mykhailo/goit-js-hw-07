@@ -29,7 +29,6 @@ const gallery = document.querySelector(".js-galery");
 
 const markup = images.map((image) => {
   const galieryItemElem = document.createElement("li"); // create <li>
-  galieryItemElem.classList.add("js-gallery-item"); // add class
 
   const imageElem = document.createElement("img"); // create <img>
   const src = image.url;
