@@ -9,6 +9,6 @@ function handlerUserNameInput() {
   if (catSpace === "") {
     outPutElem.textContent = "Anonymous";
   } else {
-    outPutElem.textContent = inputElem.value;
+    outPutElem.textContent = catSpace;
   }
 }
